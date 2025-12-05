@@ -7,7 +7,7 @@ Each exercise was originally provided with errors in pseudocode. I reviewed, tes
 
 ---
 
-## 📂 Contents
+##  Contents
 
 - `DEBUG Exercise - 01 Thaija.txt` → Student Pass/Fail program  
 - `DEBUG Exercise - 02 Thaija.txt` → Employee Net Pay program  
@@ -16,7 +16,7 @@ Each exercise was originally provided with errors in pseudocode. I reviewed, tes
 
 ---
 
-## 🛠 Debugging Approach
+##  Debugging Approach
 
 For each exercise, I followed a consistent process:
 
@@ -42,7 +42,7 @@ For each exercise, I followed a consistent process:
 
 ---
 
-## 🎯 Outcomes
+##  Outcomes
 
 - All pseudocode now runs logically and produces correct results.  
 - Files are cleanly formatted and ready for submission.  
@@ -50,7 +50,7 @@ For each exercise, I followed a consistent process:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Each file is saved in plain text format (`.txt`) for clarity.  
 - Filenames include my name (`Thaija`) as required.  
