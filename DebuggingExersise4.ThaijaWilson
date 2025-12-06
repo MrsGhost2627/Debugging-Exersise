@@ -1,0 +1,21 @@
+// Retrieve and display weather forecast for a given ZIP code.
+// If ZIP code is invalid, display an error message.
+
+start
+   Declarations
+      string zip
+      response forecastData
+   output "Enter ZIP code"
+   input zip
+   send request to "https://wp.zybooks.com/weather.php?zip=" + zip
+   receive forecastData
+   if forecastData.success = true then
+      output "Forecast:"
+      for each day in forecastData.forecast
+         output day.desc, ": high is ", day.high, ", low is ", day.low
+      endfor
+   else
+      output "Error: ", forecastData.error
+   endif
+
+stop
